@@ -30,5 +30,26 @@ namespace De_2
                 Application.Exit();
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string username = textBox1.Text;
+            string password = textBox2.Text;
+
+            if (username == "admin" && password == "123")
+            {
+                MessageBox.Show("Đăng nhập thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                // TODO: Implement the logic for successful login here
+                Menu menuForm = new Menu();
+                menuForm.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Sai tên đăng nhập hoặc mật khẩu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                // TODO: Implement the logic for failed login here
+            }
+
+        }
     }
 }
