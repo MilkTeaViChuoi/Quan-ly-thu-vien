@@ -32,6 +32,7 @@ namespace De_2
             muontrasach.Show();
             this.Hide();
         }
+<<<<<<< HEAD
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -39,5 +40,7 @@ namespace De_2
             danhmuc.Show();
             this.Hide();
         }
+=======
+>>>>>>> 29aa70d76e397b9e2018e5dfa244b39773e46614
     }
 }
