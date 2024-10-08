@@ -40,9 +40,10 @@
             // listView1
             // 
             this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(60, 176);
+            this.listView1.Location = new System.Drawing.Point(90, 271);
+            this.listView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(462, 144);
+            this.listView1.Size = new System.Drawing.Size(691, 219);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             // 
@@ -50,33 +51,37 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(222, 27);
+            this.label1.Location = new System.Drawing.Point(333, 42);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(144, 22);
+            this.label1.Size = new System.Drawing.Size(199, 30);
             this.label1.TabIndex = 1;
             this.label1.Text = "danh muc sach";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(142, 78);
+            this.textBox1.Location = new System.Drawing.Point(213, 120);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(158, 20);
+            this.textBox1.Size = new System.Drawing.Size(235, 26);
             this.textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(312, 78);
+            this.textBox2.Location = new System.Drawing.Point(468, 120);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(158, 20);
+            this.textBox2.Size = new System.Drawing.Size(235, 26);
             this.textBox2.TabIndex = 3;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(57, 78);
+            this.label2.Location = new System.Drawing.Point(86, 120);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 16);
+            this.label2.Size = new System.Drawing.Size(88, 25);
             this.label2.TabIndex = 5;
             this.label2.Text = "ten + ma";
             // 
@@ -84,25 +89,27 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(57, 131);
+            this.label4.Location = new System.Drawing.Point(86, 202);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 16);
+            this.label4.Size = new System.Drawing.Size(74, 25);
             this.label4.TabIndex = 7;
             this.label4.Text = "the loai";
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(142, 126);
+            this.comboBox1.Location = new System.Drawing.Point(213, 194);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(328, 21);
+            this.comboBox1.Size = new System.Drawing.Size(490, 28);
             this.comboBox1.TabIndex = 8;
             // 
             // danhmuc
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(584, 360);
+            this.ClientSize = new System.Drawing.Size(876, 554);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
@@ -110,8 +117,10 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.listView1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "danhmuc";
             this.Text = " danhmuc";
+            this.Load += new System.EventHandler(this.danhmuc_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

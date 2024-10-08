@@ -16,5 +16,10 @@ namespace De_2
         {
             InitializeComponent();
         }
+
+        private void danhmuc_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
