@@ -39,5 +39,7 @@ namespace De_2
             danhmuc.Show();
             this.Hide();
         }
+=======
+>>>>>>> 29aa70d76e397b9e2018e5dfa244b39773e46614
     }
 }
